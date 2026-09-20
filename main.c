@@ -1,6 +1,6 @@
 #include "exercicios/lista02/lista02.h"
 
 int main(){
-    ex03();
+    ex04();
     return 0;
 }
