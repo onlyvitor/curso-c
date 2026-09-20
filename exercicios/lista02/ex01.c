@@ -6,8 +6,10 @@ int ex01() {
     scanf("%d", &num);
 
     if(num<0){
-        printf("negativo");
+        printf("negativo\n");
     } else {
-        printf("positivo");
+        printf("positivo\n");
     }
+
+    return 0;
 }

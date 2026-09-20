@@ -2,6 +2,7 @@
 
 int main(){
     ex01();
+    ex02();
 
     return 0;
 }
