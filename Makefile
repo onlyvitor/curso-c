@@ -2,7 +2,9 @@ CC = gcc
 CFLAGS = -Wall -Wextra -g
 TARGET = main
 
-SRC = main.c exercicios/lista02/ex01.c exercicios/lista02/ex02.c exercicios/lista02/ex03.c exercicios/lista02/ex04.c
+SRC_LIST_02 = main.c exercicios/lista02/ex01.c exercicios/lista02/ex02.c exercicios/lista02/ex03.c exercicios/lista02/ex04.c exercicios/lista02/ex05.c
+
+SRC = $(SRC_LIST_02)
 
 all: $(TARGET)
 
@@ -14,6 +16,7 @@ clean:
 
 .PHONY: all clean
 
-run:
+run: $(TARGET)
+	@echo "RUNNING..."
 	./$(TARGET)
-.PHONY: RUNNING...
+.PHONY: all clean run
