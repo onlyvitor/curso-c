@@ -1,4 +1,5 @@
 #ifndef lista03
     void ex01_03();
     void ex02_03();
+    void ex03_03();
 #endif
