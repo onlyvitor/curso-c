@@ -2,6 +2,6 @@
 #include "exercicios/lista03/lista03.h"
 
 int main(){
-    ex01_03();
+    ex02_03();
     return 0;
 }
