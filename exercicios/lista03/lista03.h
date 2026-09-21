@@ -3,4 +3,5 @@
     void ex02_03();
     void ex03_03();
     void ex04_03();
+    void ex05_03(int array[10]);
 #endif
