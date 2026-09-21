@@ -5,7 +5,7 @@
 void ex02_03(){
     char str[60];
     scanf(" %s", str);
-    char charlegal='a';
+    char charlegal;
     scanf(" %c", &charlegal);
 
     if(strchr(str, charlegal)){
