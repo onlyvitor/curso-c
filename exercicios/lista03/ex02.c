@@ -2,15 +2,19 @@
 #include <stdio.h>
 #include <string.h>
 
-void ex02_03(){
+void ex02_03()
+{
     char str[60];
     scanf(" %s", str);
     char charlegal;
     scanf(" %c", &charlegal);
 
-    if(strchr(str, charlegal)){
+    if (strchr(str, charlegal))
+    {
         printf("tem esse caractere fi\n");
-    } else {
+    }
+    else
+    {
         printf("caractere nao ta la maninho\n");
     }
 }
