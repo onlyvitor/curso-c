@@ -6,12 +6,12 @@ SRC_LIST_02 = main.c exercicios/lista02/ex01.c exercicios/lista02/ex02.c exercic
 SRC_LIST_03 = exercicios/lista03/ex01.c exercicios/lista03/ex02.c exercicios/lista03/ex03.c exercicios/lista03/ex04.c exercicios/lista03/ex05.c exercicios/lista03/ex06.c exercicios/lista03/ex07.c exercicios/lista03/ex08.c
 SRC_LIST_04 = exercicios/lista04/ex01.c
 
-SRC = $(SRC_LIST_02) $(SRC_LIST_03)
+SRC = $(SRC_LIST_02) $(SRC_LIST_03) $(SRC_LIST_04)
 
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC) -lm
 
 clean:
 	rm -f $(TARGET)
