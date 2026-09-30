@@ -2,4 +2,5 @@
 #include <stdio.h>
 #include <stdlib.h>
 void ex01_07();
+void ex02_07();
 #endif
